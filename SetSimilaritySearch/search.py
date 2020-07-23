@@ -2,7 +2,7 @@ import logging
 from collections import defaultdict, deque
 import numpy as np
 
-from SetSimilaritySearch.utils import _frequency_order_transform, \
+from .utils import _frequency_order_transform, \
         _similarity_funcs, _overlap_threshold_funcs, _position_filter_funcs, \
         _symmetric_similarity_funcs, _asymmetric_similarity_funcs, \
         _overlap_index_threshold_funcs
